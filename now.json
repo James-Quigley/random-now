@@ -3,7 +3,7 @@
   "name": "random",
   "builds": [
     {
-      "src": "*.js",
+      "src": "src/*.js",
       "use": "@now/node"
     }
   ]
