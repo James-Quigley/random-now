@@ -3,10 +3,10 @@ function randomInt(max) {
 }
 
 module.exports = (req, res) => {
-  res.end({
+  res.end(JSON.stringify({
     r: randomInt(256),
     g: randomInt(256),
     b: randomInt(256),
     a: randomInt(256)
-  })
+  }));
 }
